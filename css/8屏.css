@@ -1,0 +1,343 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.swiper-container{
+    width: 100%;
+    height: 100%;
+    background: #b5e2df;
+}
+.swiper-slide{
+    width: 100%;
+    height: 100%;
+    transition: transform 1s linear;
+}
+
+/*第一屏*/
+.swiper-container .page1 .pic1{
+    width: 1.75rem;
+    height: 0.58rem;
+    margin: 0.4rem 0 0 0.9rem;
+}
+.swiper-container .page1 .pic2{
+    width: 2.65rem;
+    height: 2.64rem;
+    margin: 0.5rem 0 0 0.45rem;
+    position: relative;
+}
+.swiper-container .page1 .pic3{
+    width: 1.85rem;
+    height: 0.76rem;
+    margin: 0 auto;
+    position: absolute;
+    left: 0.9rem;
+    top: 2.1rem;
+}
+.swiper-container .page1 .pic4{
+    width: 1.44rem;
+    height: 0.16rem;
+    margin: 0 auto;
+    position: absolute;
+    left: 1.05rem;
+    bottom: 2rem;
+}
+.swiper-container .page1 .pic5{
+    width: 0.71rem;
+    height: 0.71rem;
+    margin: 0 auto;
+    position: absolute;
+    left: 1.4rem;
+    bottom: 1rem;
+}
+.swiper-container .page1 .pic6{
+    width: 0.87rem;
+    height: 0.33rem;
+    position: absolute;
+    left: 1.4rem;
+    bottom: 0.5rem;
+}
+
+/*第二屏*/
+.page2 .pic1{
+    width: 1.45rem;
+    height: 0.76rem;
+    margin: 0.8rem 0 0 1rem;
+    z-index: 999;
+    position: absolute;
+}
+.page2 .pic2{
+    width: 3.01rem;
+    height: 2.8rem;
+    margin: 1.4rem 0 0 0.25rem;
+    position: relative;
+}
+.page2 .pic3{
+    width: 2.69rem;
+    height: 1.91rem;
+    position: absolute;
+    left: 0.3rem;
+    bottom: 2.6rem;
+}
+.page2 .pic4{
+    width: 2.41rem;
+    height: 1.28rem;
+    position: absolute;
+    left: 0.3rem;
+    bottom: 0.4rem;
+}
+
+/*第三屏*/
+.page3 .pic1{
+    width: 2.01rem;
+    height: 1.33rem;
+    position: relative;
+    left: 1rem;
+}
+.page3 .pic2{
+    width: 3.15rem;
+    height: 1.46rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.page3 .pic3{
+    width: 3.01rem;
+    height: 1.05rem;
+    position: absolute;
+    left: 0.6rem;
+    bottom: 0.6rem;
+}
+.page3 .pic4{
+    width: 0.23rem;
+    height: 0.12rem;
+    position: absolute;
+    left: 0.7rem;
+    top: 0.4rem;
+}
+.page3 .pic5{
+    width: 0.23rem;
+    height: 0.12rem;
+    position: absolute;
+    right: 0.6rem;
+    top: 0.4rem;
+}
+.page3 .pic6{
+    width: 1.48rem;
+    height: 0.23rem;
+    position: absolute;
+    left: 1.1rem;
+    top: 0.35rem;
+}
+.page3 .pic7{
+    width: 2.8rem;
+    height: 0.5rem;
+    position: absolute;
+    left: 0.4rem;
+    top: 1rem;
+}
+.page3 .pic8{
+    width: 0.92rem;
+    height: 0.21rem;
+    position: absolute;
+    left: 0.55rem;
+    top: 2.15rem;
+    z-index: 999;
+}
+.page3 .pic9{
+    width: 1.17rem;
+    height: 0.31rem;
+    position: absolute;
+    left: 0.4rem;
+    top: 2.1rem;
+}
+.page3 .pic10{
+    width: 2.69rem;
+    height: 0.74rem;
+    position: absolute;
+    left: 0.4rem;
+    top: 2.9rem;
+}
+.page3 .pic11{
+    width: 2.61rem;
+    height: 0.48rem;
+    position: absolute;
+    left: 0.4rem;
+    bottom: 0.8rem;
+}
+/*第四屏*/
+.page4 .pic1{
+    width: 2.99rem;
+    height: 0.58rem;
+    position: relative;
+    left: 0.3rem;
+    top: 0;
+}
+.page4 .pic2{
+    width: 2.95rem;
+    height: 4.6rem;
+    position: relative;
+    left: 0.3rem;
+    top: 0.1rem;
+}
+/*第五屏*/
+.page5 .pic1{
+    width: 1.94rem;
+    height: 0.27rem;
+    position: relative;
+    left: 0.8rem;
+    top: 0;
+}
+.page5 .pic2{
+    width: 3.53rem;
+    height: 0.95rem;
+    position: absolute;
+    left: 0;
+    top: 1.6rem;
+}
+.page5 .pic3{
+    width: 3.53rem;
+    height: 0.95rem;
+    position: absolute;
+    left: 0;
+    top: 3rem;
+}
+.page5 .pic4{
+    width: 3.53rem;
+    height: 0.95rem;
+    position: absolute;
+    left: 0;
+    bottom: 0.9rem;
+}
+
+/*第六屏*/
+.page6 .pic1{
+    width: 1.73rem;
+    height: 0.24rem;
+    position: relative;
+    left: 0.8rem;
+    top: 0;
+}
+.page6 .pic2{
+    width: 2.85rem;
+    height: 0.17rem;
+    position: absolute;
+    left: 0.4rem;
+    top: 1.3rem;
+}
+.page6 .pic3{
+    width: 1.73rem;
+    height: 0.24rem;
+    position: absolute;
+    left: 0.8rem;
+    top: 1.9rem;
+}
+.page6 .pic4{
+    width: 2.85rem;
+    height: 0.49rem;
+    position: absolute;
+    left: 0.4rem;
+    top: 2.4rem;
+}
+.page6 .pic5{
+    width: 2.87rem;
+    height: 0.33rem;
+    position: absolute;
+    left: 0.4rem;
+    top: 3.3rem;
+}
+.page6 .pic6{
+    width: 2.86rem;
+    height: 2.13rem;
+    position: absolute;
+    left: 0.4rem;
+    bottom: 0.2rem;
+}
+/*第七屏*/
+.page7 .pic1{
+    width: 1.91rem;
+    height: 0.24rem;
+    position: relative;
+    left: 0.8rem;
+    top: 0;
+}
+.page7 .pic2{
+    width: 1.48rem;
+    height: 1.52rem;
+    position: absolute;
+    left: 0.2rem;
+    top: 1.4rem;
+}
+.page7 .pic3{
+     width: 1.47rem;
+     height: 1.52rem;
+     position: absolute;
+     right: 0.2rem;
+     top: 1.4rem;
+}
+.page7 .pic4{
+    width: 1.48rem;
+    height: 1.54rem;
+    position: absolute;
+    left: 0.2rem;
+    bottom: 1.5rem;
+}
+.page7 .pic5{
+    width: 1.47rem;
+    height: 1.55rem;
+    position: absolute;
+    right: 0.2rem;
+    bottom: 1.5rem;
+}
+.page7 .pic6{
+    width: 3.53rem;
+    height: 1rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+/*第八屏*/
+.page8 .pic1{
+    width: 1.96rem;
+    height: 0.46rem;
+    position: relative;
+    left: 0.8rem;
+    top: 0.3rem;
+}
+.page8 .pic2{
+    width: 1.96rem;
+    height: 0.17rem;
+    position: absolute;
+    left: 0.8rem;
+    top: 1.9rem;
+}
+.page8 .pic3{
+    width: 1.49rem;
+    height: 1.52rem;
+    position: absolute;
+    left: 1rem;
+    top: 2.6rem;
+}
+.page8 .pic4{
+    width: 3.53rem;
+    height: 1.31rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+
+
+
+
+
+
+
+
